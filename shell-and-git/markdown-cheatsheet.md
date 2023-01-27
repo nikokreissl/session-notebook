@@ -12,44 +12,51 @@ Element	Markdown Syntax
 "-" with a space opens a list item
 
 **Example**
-- This is a list item
+- This is a list item  
+---
 
 #### Checkboxes
-"[]" euqals a unchecked checkbox, "[x]" euqals a unchecked checkbox.
+"[]" equals a unchecked checkbox, "[x]" euqals a unchecked checkbox.
 
-**Example**
-[] not done
+**Example**  
+[] not done  
 [x] done
+---
 
 #### Bold
 Add "**" before and after the text that should be bold
 
-**Example**
+**Example**  
 **bold text**
+---
 
 #### Italic
 Add "_" before and after the text that should be bold
 
-**Example**
+**Example**   
 _italicized text_
+---
 
 #### Link
 "[ link ]" without space follows by "( https:// )" without any spaces
 
-**Example**
+**Example**  
 [link](https://www.example.com)
+---
 
 #### Image
 "![ link ]" without space follows by "( https:// )" without any spaces
 
-**Example**
-[link](https://www.example.com)
+**Example**  
+![Image](https://www.example.com)
+---
 
 #### Block Quote
 ">" followed by a space opens a Block quote
 
 **Example**
 > This is a block quote
+---
 
 #### Divider
 "-" Three times is a divider
@@ -60,11 +67,12 @@ _italicized text_
 #### Inline code block
 ` To open and close the inline code block
 
-**Example**
+**Example**  
 `inline code block`
+---
 
 #### Code block
-``` To open and close the code block 
+"```" To open and close the code block 
 
 **Example**
 ``` code block ```
