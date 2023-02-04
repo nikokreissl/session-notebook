@@ -2,6 +2,8 @@
 
 To change the default layout of (especially) HTML block elements you make use of the CSS-property `display: flex;` which needs to be applied to the `parent / container`element.
 
+[Link to challenges & handout](https://github.com/neuefische/bo-web-23-1/tree/main/sessions/css-flexbox)
+
 ### General information
 
 By default once `display: flex;`is applied to the parent element, the child elements will be ordered in `row`.

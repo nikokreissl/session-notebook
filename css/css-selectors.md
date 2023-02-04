@@ -5,28 +5,30 @@ It is working descendant so if an element is selected twice the last selector ap
 
 There are different types of selectors.
 
-##### Tag / Type selector
+[Link to challenges & handout](https://github.com/neuefische/bo-web-23-1/tree/main/sessions/css-selectors)
 
-Selects an element based on their tag / type, e.g. <h1>
+### Tag / Type selector
 
-##### Universal selector
+Selects an element based on their tag / type, e.g. `<h1>`
 
-Selects all elements in the file
+### Universal selector
 
-##### Class selector
+`*` Selects all elements in the file
 
-By starting a selector with "." all elements with the class assigned
+### Class selector
 
-##### Attribute selector
+By starting a selector with `.` all elements with the class assigned
 
-With tag[type] all elements of a tag with a **any type** are selected, e.g. `button[type]`
+### Attribute selector
 
-It can be enhanced by giving the attribute a value, e.g. `button[type="submit"]
+With `tag[type]` all elements of a tag with a **any type** are selected, e.g. `button[type]`
+
+It can be enhanced by giving the attribute a value, e.g. `button[type="submit"]`
 
 For a-tags you can tell the selector to only select hrefs starting with a certain pattern, e.g. external https links.
 `a[href^="https"]`
 
-##### Pseudo classes
+### Pseudo classes
 
 Pseudo classes are states of elements, e.g. on hover or when a input is active.
-Additionally there are ::before and ::after can be used to paste content which will e.g. be ignored by screen readers
+Additionally there are `::before` and `::after` can be used to paste content which will e.g. be ignored by screen readers
